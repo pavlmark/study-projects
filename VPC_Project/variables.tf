@@ -10,7 +10,7 @@ variable "instance_type" {
 
 variable "trusted_ips" {
   type    = list(string)
-  default = ["83.99.252.228/32"]
+  default = ["my home ip"]
 }
 
 /*variable "allow ports" {
